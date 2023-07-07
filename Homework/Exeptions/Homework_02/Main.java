@@ -19,15 +19,15 @@ public class Main {
         // System.out.println("Catching exception: " + e);
         // }
 
-        int[] intArray = null;
-        int[] intArray1 = new int[] {1, 2, 3, 4, 5};
+        // int[] intArray = null;
+        // int[] intArray1 = new int[] {1, 2, 3, 4, 5};
         int[] intArray2 = new int[] {1, 2 , 3, 4, 5, 6, 7, 8, 9, 10};
-        String[] intArray3 = new String[] {"a", "b", "c", "d", "e", "f", "g", "h", "i"};
-        String[] intArray4 = new String[] {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
+        // String[] intArray3 = new String[] {"a", "b", "c", "d", "e", "f", "g", "h", "i"};
+        // String[] intArray4 = new String[] {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
         int d = 0;
         try {
-            double catchedRes1 = Integer.valueOf(intArray[8]) / d;
+            double catchedRes1 = Integer.valueOf(intArray2[8]) / d;
             System.out.println("catchedRes1 = " + catchedRes1);
         } catch (NullPointerException e) {
             System.out.println("Catching exception: " + e);
